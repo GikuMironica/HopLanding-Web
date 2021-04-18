@@ -1,0 +1,14 @@
+.footer{
+  border-top: 2px solid #ED2F65;
+  padding:20px;
+}
+
+.footer a{
+    color:#c0bdbd;
+}
+
+.footer .col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
