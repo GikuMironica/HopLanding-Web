@@ -37,3 +37,10 @@
         transform: translateY(26px)
     }
 }
+
+.main-hero {
+    background: url('../../assets/images/hero-bg.jpg') no-repeat center top;
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+}

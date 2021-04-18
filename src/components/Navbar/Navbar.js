@@ -12,7 +12,7 @@ function Navbar() {
     setActive(index);
   };
   return (
-    <div>
+    <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="#">
           Hopout
