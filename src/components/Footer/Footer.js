@@ -32,6 +32,11 @@ function Footer() {
             </div>
           </div>
         </div>
+        <div className="container">
+          <div className="copyright">
+          <p>&copy; 2021 Hopaut UG</p>
+          </div>
+        </div>
       </nav>
     </div>
   );

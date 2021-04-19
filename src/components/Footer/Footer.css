@@ -1,10 +1,22 @@
 .footer{
-  border-top: 2px solid #ED2F65;
-  padding:20px;
+  border-top: none;
+  padding: 20px;
+}
+
+.copyright {
+  text-align: end;
+  height: 50px;
+  border-top: rgb(199, 199, 199) 1px solid;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.copyright p{
+  font-size: 0.85em;
 }
 
 .footer a{
-    color:#c0bdbd;
+    color:#727272;
 }
 
 .footer .col-md-4{

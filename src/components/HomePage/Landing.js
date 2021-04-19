@@ -14,8 +14,10 @@ function Landing() {
             <div className="row">
               <div className="col-md-8 my-3 p-5">
                 <div className="main-text-hero">
-                  <h1>Hopout</h1>
-                  <h1>Where the party never stops</h1>
+                  <h1>Find what's happening around you.</h1>
+                </div>
+                <div className="main-text-hero-alt">
+                  <p>Your ultimate event companion.</p>
                 </div>
                 <div className="download-buttons-row">
                   <div className="apple">

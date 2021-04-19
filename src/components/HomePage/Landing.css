@@ -6,7 +6,8 @@
     width: 30px;
     height: 50px;
     margin-left: 315px;
-    bottom: 10px;
+    opacity: 0.7;
+    bottom: -5px;
     margin-top: -35px;
     border: 2px solid #ED2F65;
     border-radius: 25px
@@ -44,9 +45,9 @@
 }
 
 .phone img{
-  max-width: 500px;
-  padding-right: 2%;
-  margin-left: -100px;
+  max-width: 600px;
+  padding-right: 1%;
+  margin-left: -250px;
 }
 
 
@@ -57,18 +58,27 @@
 }
 
 .main-text-hero h1{
-    font-size:5em;
+    font-family: 'Palanquin', sans-serif;
+    line-height: 1em;
+    font-size: 3.5em;
 }
 
 .main-text-hero{
     position:relative;
     margin-left:30px;
+    margin-bottom: 80px;
+}
+
+.main-text-hero-alt {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 45px;
 }
 
 .main-text-hero:after{
     position: absolute;
     content: "";
-    bottom: 0;
+    bottom: -48px;
     left:7px;
     width: 5%;
     height: 3px;
@@ -77,7 +87,7 @@
 }
 
 .download-buttons-row{
-    margin-top: 50px;
+    margin-top: 120px;
     width: 100%;
     display:flex;
     flex-direction: row;
@@ -89,8 +99,6 @@
     width:152px;
     height:58px;
     margin-left:10px;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .apple{
