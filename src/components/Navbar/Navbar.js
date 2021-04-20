@@ -4,8 +4,9 @@ function Navbar() {
   const [active, setActive] = useState(0);
 
   const links = [
-    { id: 0, text: "About us" },
-    { id: 1, text: "Register" },
+    { id: 0, text: "Home" },
+    { id: 1, text: "About us" },
+    { id: 2, text: "Register" },
   ];
 
   const setActiveLink = (index) => {
