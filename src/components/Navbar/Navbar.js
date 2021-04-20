@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           Hopout
         </a>
         <button
@@ -47,7 +47,7 @@ function Navbar() {
               );
             })}
             <li className="nav-item get-started">
-              <a className="nav-link">Get started</a>
+              <a className="nav-link">Login</a>
             </li>
           </ul>
         </div>

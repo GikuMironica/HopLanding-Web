@@ -1,10 +1,10 @@
 .navbar{
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding:20px
 }
 
 .navbar .nav-link{
-    font-size: 18px;
+    font-size: 16px;
     color:#000 !important;
 }
 
@@ -33,8 +33,10 @@
 
 .get-started{
     background:#ED2F65 !important;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .get-started .nav-link{
+    margin-left: 16px;
+    margin-right: 16px;
     color:#FFF !important;
 }
