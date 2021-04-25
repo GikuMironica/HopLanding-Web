@@ -261,7 +261,79 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .p-5{
+        padding:3rem !important;
+    }
+
+    .icon-scroll{
+        display: block;
+    }
+
+    .main-text-hero{
+        font-size:1em;
+        margin-bottom: 80px;
+    }
+
+    .main-text-hero-alt{
+        margin-bottom: 45px;
+    }
+
+    .download-buttons-row{
+        margin-top: 10px;
+    }
+
+    .phone img{
+        max-width: 500px;
+        padding-right: 1%;
+        margin-left: -145px;
+    }
+
+    .landing-container .download-now{
+        padding-top: 100px;
+        height:350px;
+    }
+
+    .landing-container .download-now h1{
+        font-size:2.7em;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .p-5{
+        padding:3rem !important;
+    }
+
+    .icon-scroll{
+        display: block;
+    }
+
+    .main-text-hero{
+        font-size:1em;
+        margin-bottom: 80px;
+    }
+
+    .main-text-hero-alt{
+        margin-bottom: 45px;
+    }
+
+    .download-buttons-row{
+        margin-top: 10px;
+    }
+
+    .phone img{
+        max-width: 500px;
+        padding-right: 1%;
+        margin-left: -145px;
+    }
+
+    .landing-container .download-now{
+        padding-top: 100px;
+        height:350px;
+    }
+
+    .landing-container .download-now h1{
+        font-size:2.7em;
+    }
+}
