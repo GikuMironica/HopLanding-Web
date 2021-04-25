@@ -139,3 +139,129 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .icon-scroll{
+       display: none;
+    }
+
+    .p-5{
+        padding:0px !important;
+    }
+
+    .main-text-hero{
+        font-size:1em;
+        margin-bottom: 50px;
+    }
+
+    .main-text-hero-alt{
+        margin-bottom: 10px;
+    }
+
+    .download-buttons-row{
+        margin-top: 10px;
+    }
+
+    .phone img{
+        max-width: 500px;
+        padding-right: 1%;
+        margin-left: -145px;
+    }
+
+    .landing-container .download-now{
+        padding-top: 20px;
+        height:100px;
+
+    }
+
+    .landing-container .download-now h1{
+        font-size:1.02em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .icon-scroll{
+        display: none;
+     }
+ 
+     .p-5{
+        padding:0px !important;
+
+     }
+ 
+     .main-text-hero{
+         font-size:1em;
+         margin-bottom: 50px;
+     }
+ 
+     .main-text-hero-alt{
+         margin-bottom: 10px;
+     }
+ 
+     .download-buttons-row{
+         margin-top: 10px;
+     }
+ 
+     .phone img{
+         max-width: 500px;
+         padding-right: 1%;
+         margin-left: -145px;
+     }
+ 
+     .landing-container .download-now{
+         padding-top: 20px;
+         height:100px;
+     }
+ 
+     .landing-container .download-now h1{
+         font-size:1.02em;
+     }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .icon-scroll{
+        display: none;
+     }
+ 
+     .p-5{
+        padding:0px !important;
+     }
+ 
+     .main-text-hero{
+         font-size:1em;
+         margin-bottom: 50px;
+     }
+ 
+     .main-text-hero-alt{
+         margin-bottom: 10px;
+     }
+ 
+     .download-buttons-row{
+         margin-top: 10px;
+     }
+ 
+     .phone img{
+         max-width: 500px;
+         padding-right: 1%;
+         margin-left: -145px;
+     }
+ 
+     .landing-container .download-now{
+         padding-top: 20px;
+         height:100px;
+     }
+ 
+     .landing-container .download-now h1{
+         font-size:1.02em;
+     }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

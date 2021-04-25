@@ -1,0 +1,20 @@
+.login-card{
+    padding:20px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    transition:none;
+}
+
+.login-logo{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.login-card .btn{
+    width: 100%;
+    background-color:#ED2F65;
+}

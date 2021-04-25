@@ -21,16 +21,16 @@ function Footer() {
           <div className="row d-flex justify-content-start">
             <div className="col-md-4">
               <h4>Company</h4>
-                <Link to="/about-us">About Us</Link>
+              <Link to="/about-us">About Us</Link>
+              <Link to="/legal/impressum">Impressum</Link>
             </div>
             <div className="col-md-4">
               <h4>Legal entities</h4>
-                <Link to="/legal/privacy">Privacy Policy</Link>
-                <Link to="/legal/terms">Terms and Services</Link> 
+              <Link to="/legal/privacy">Privacy Policy</Link>
+              <Link to="/legal/terms">Terms and Services</Link>
             </div>
             <div className="col-md-4">
-            </div>
-            <div className="col-md-4">
+              <h4>Language selector</h4>
               <Select options={options} />
             </div>
           </div>

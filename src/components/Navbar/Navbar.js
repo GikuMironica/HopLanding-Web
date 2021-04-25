@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { withRouter, useHistory } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../assets/images/logo.png";
-function Navbar() {
+function Navbar({}) {
   const [active, setActive] = useState(0);
+  const history = useHistory();
 
   const links = [
     { id: 0, text: "Home", link: "/" },
@@ -10,8 +12,9 @@ function Navbar() {
     { id: 2, text: "Register", link: "/register" },
   ];
 
-  const setActiveLink = (index) => {
+  const setActiveLink = (index, url) => {
     setActive(index);
+    history.push(url);
   };
   return (
     <div class="container">
@@ -41,14 +44,17 @@ function Navbar() {
                       index === active ? "nav-item active" : "nav-item"
                     }
                     key={index}
-                    onClick={() => setActiveLink(index)}
+                    onClick={() => setActiveLink(index, item.link)}
                   >
                     <a className="nav-link">{item.text}</a>
                   </li>
                 </>
               );
             })}
-            <li className="nav-item get-started">
+            <li
+              className="nav-item get-started"
+              onClick={() => history.push("/login")}
+            >
               <a className="nav-link">Login</a>
             </li>
           </ul>

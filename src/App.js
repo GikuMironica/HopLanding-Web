@@ -5,6 +5,9 @@ import LegalPrivacy from "./components/Legal/Privacy";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
+import Login from "./components/Auth/Login";
+import Register from "./components/Auth/Register";
+import Impressum from "./components/Legal/impressum";
 import "./App.css";
 
 function App() {
@@ -15,7 +18,10 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={HomeScreen} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/register" component={Register} />
             <Route exact path="/legal/privacy" component={LegalPrivacy} />
+            <Route exact path="/legal/impressum" component={Impressum} />
             <Route exact path="/legal/terms" component={LegalTerms} />
             <Route exact path="/about-us" component={About} />
           </Switch>

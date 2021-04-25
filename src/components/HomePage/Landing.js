@@ -8,7 +8,7 @@ import Hero3 from "../../assets/images/hero_3.jpg";
 function Landing() {
   return (
     <div>
-      <div className="container">
+      <div className="container landing-container">
         <div className="hero-banner-1"></div>
         <div className="main-hero mt-5">
           <div className="container">
