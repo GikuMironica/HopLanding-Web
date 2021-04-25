@@ -300,7 +300,27 @@
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  .our-mission .row {
+    margin-top: 50px;
+  }
+  .our-mission-2 .row{
+    flex-direction: row;
+  }
+
+  .about-page .download-now{
+    padding-top:100px;
+    height: 350px;
+}
+
+.about-page .download-now h1{
+    font-size: 2.7em;
+}
+
+.about-page .download-now-buttons{
+  margin-top:0px;
+}
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}

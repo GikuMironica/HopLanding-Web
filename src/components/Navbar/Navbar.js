@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+import Logo from "../../assets/images/logo.png";
 function Navbar() {
   const [active, setActive] = useState(0);
 
   const links = [
-    { id: 0, text: "Home" },
-    { id: 1, text: "About us" },
-    { id: 2, text: "Register" },
+    { id: 0, text: "Home", link: "/" },
+    { id: 1, text: "About us", link: "/about-us" },
+    { id: 2, text: "Register", link: "/register" },
   ];
 
   const setActiveLink = (index) => {
@@ -16,7 +17,7 @@ function Navbar() {
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="/">
-          Hopout
+          <img src={Logo} style={{ width: 150 }} />
         </a>
         <button
           class="navbar-toggler"

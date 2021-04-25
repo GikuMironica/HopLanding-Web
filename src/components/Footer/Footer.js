@@ -1,8 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import Select from "react-select";
 
 function Footer() {
+  const options = [
+    { value: "de", label: "German" },
+    { value: "en", label: "English" },
+  ];
+
+  const customStyles = {
+    control: () => ({
+      width: "50%",
+    }),
+  };
   return (
     <div>
       <nav class="footer">
@@ -22,6 +33,9 @@ function Footer() {
               <div className="about-section">
                 <Link to="/legal/terms">Terms and services</Link>
               </div>
+            </div>
+            <div className="col-md-4">
+              <Select options={options} />
             </div>
           </div>
 
