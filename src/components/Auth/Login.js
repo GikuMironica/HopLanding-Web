@@ -1,6 +1,7 @@
 import React from "react";
 import "./Login.css";
 import Logo from "../../assets/images/logo.png";
+import { useTranslation } from "react-i18next";
 function Login() {
   return (
     <div className="container">

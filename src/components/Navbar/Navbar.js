@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { withRouter, useHistory } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 import Logo from "../../assets/images/logo.png";
 function Navbar({}) {
@@ -7,14 +8,19 @@ function Navbar({}) {
   const history = useHistory();
 
   const links = [
-    { id: 0, text: "Home", link: "/" },
-    { id: 1, text: "About us", link: "/about-us" },
-    { id: 2, text: "Register", link: "/register" },
+    { id: 0, text: "home", link: "/" },
+    { id: 1, text: "about", link: "/about-us" },
+    { id: 2, text: "register", link: "/register" },
   ];
-
+  const { t, i18n } = useTranslation();
   const setActiveLink = (index, url) => {
     setActive(index);
     history.push(url);
+  };
+
+  const goToLogin = () => {
+    history.push("/login");
+    setActive(-1);
   };
   return (
     <div class="container">
@@ -46,16 +52,13 @@ function Navbar({}) {
                     key={index}
                     onClick={() => setActiveLink(index, item.link)}
                   >
-                    <a className="nav-link">{item.text}</a>
+                    <a className="nav-link">{t(`header.${item.text}`)}</a>
                   </li>
                 </>
               );
             })}
-            <li
-              className="nav-item get-started"
-              onClick={() => history.push("/login")}
-            >
-              <a className="nav-link">Login</a>
+            <li className="nav-item get-started" onClick={goToLogin}>
+              <a className="nav-link">{t("header.login")}</a>
             </li>
           </ul>
         </div>

@@ -4,7 +4,7 @@ import Hero from "../../assets/images/another_hero.jpg";
 import Phone from "../../assets/images/phone.png";
 import Play from "../../assets/images/google-play-badge.png";
 import Apple from "../../assets/images/apple-download-badge.svg";
-import Hero3 from "../../assets/images/hero_3.jpg";
+import { useTranslation } from "react-i18next";
 function Landing() {
   return (
     <div>
