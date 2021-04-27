@@ -14,18 +14,18 @@
     },
     "footer": {
         "company": "Company",
-        "about": "About us",
+        "about": "About Us",
         "impressum": "Impressum",
-        "legal": "Legal entities",
-        "lang": "Language selector",
+        "legal": "Legal",
+        "lang": "Language",
         "privacy": "Privacy Policy",
-        "terms": "Terms and services"
+        "terms": "Terms of Service"
     },
     "us": {
         "mission": "Our mission",
         "paragraph1": "Tired of spending endless hours searching for interesting and fun activities around you ? You came to the right address! Our mission is to make you hop out of your house and join the events that you're looking for, find people with the same interests and make new connections",
         "paragraph2": "Enjoy the endless possibilities of finding new friends, exploring different cities and enjoying life all with a few clicks on your phone or computer. Don't wait for the perfect opportunity, create one yourself!",
-        "hopout": "What is Hopout ?",
+        "hopout": "What is Hopout?",
         "hopout1": "Hopout is a geosocial mobile and web based application allowing user to easily create, attend and explore various types of events scattered around their city!",
         "hopout2": "Utilizing GPS tracking, Hopout can pinpoint the user's current location and display events in close vacinity, mitigating the need to search for hours on end for fun activities!",
         "horizon": "The horizon is the limit",
@@ -35,7 +35,7 @@
         "card3-text": "Are you a party animal? Find your people and make some good memories. Within 2 minutes you can post your party for free and let the others know.",
         "card2-header": "Find",
         "card3-header": "Party",
-        "waiting": "What are you waiting for ?"
+        "waiting": "What are you waiting for?"
     },
     "auth": {
         "email": "Email address",

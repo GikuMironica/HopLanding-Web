@@ -15,7 +15,15 @@
   font-size: 0.85em;
 }
 
+.footer h4 {
+  font-size: 1.35em;
+  padding-bottom: 8px;
+}
+
 .footer a{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.9em;
     color:#727272;
 }
 
@@ -26,8 +34,9 @@
 }
 
 .footer .css-2b097c-container{
-  width:50%
+  width:30%
 }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
