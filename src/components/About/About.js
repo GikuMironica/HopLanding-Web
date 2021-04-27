@@ -6,7 +6,7 @@ import Play from "../../assets/images/google-play-badge.png";
 import Apple from "../../assets/images/apple-download-badge.svg";
 import { useTranslation } from "react-i18next";
 function About() {
-  const { t } = useTranslation;
+  const { t } = useTranslation();
   return (
     <div className="container about-page">
       <div className="row">
@@ -49,7 +49,7 @@ function About() {
       </div>
       <div className="my-5 features">
         <h1 style={{ textAlign: "center" }} className="my-5">
-          {t("us.horizion")}
+          {t("us.horizon")}
         </h1>
         <div className="row">
           <div className="col-md-4">

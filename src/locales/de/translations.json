@@ -1,1 +1,48 @@
-{}
+{
+    "header": {
+        "home": "Home",
+        "about": "About us",
+        "register": "Register",
+        "login": "Login"
+    },
+    "landing": {
+        "find": "Find what's happening around you.",
+        "ultimate": "Your ultimate event companion.",
+        "build": "Build up a community",
+        "community": "Join the biggest community of party people",
+        "wait": "Don't wait for the perfect opportunity, hop-out!"
+    },
+    "footer": {
+        "company": "Company",
+        "about": "About us",
+        "impressum": "Impressum",
+        "legal": "Legal entities",
+        "lang": "Language selector",
+        "privacy": "Privacy Policy",
+        "terms": "Terms and services"
+    },
+    "us": {
+        "mission": "Our mission",
+        "paragraph1": "Tired of spending endless hours searching for interesting and fun activities around you ? You came to the right address! Our mission is to make you hop out of your house and join the events that you're looking for, find people with the same interests and make new connections",
+        "paragraph2": "Enjoy the endless possibilities of finding new friends, exploring different cities and enjoying life all with a few clicks on your phone or computer. Don't wait for the perfect opportunity, create one yourself!",
+        "hopout": "What is Hopout ?",
+        "hopout1": "Hopout is a geosocial mobile and web based application allowing user to easily create, attend and explore various types of events scattered around their city!",
+        "hopout2": "Utilizing GPS tracking, Hopout can pinpoint the user's current location and display events in close vacinity, mitigating the need to search for hours on end for fun activities!",
+        "horizon": "The horizon is the limit",
+        "card1-header": "Register",
+        "card1-text": "No more tedious registration processes and endless forms. Register within a minute and Hop Out!",
+        "card2-text": "Whatever you are looking for, whether it's a party or car, bicycle or bike meet, it's all here, don't miss it!",
+        "card3-text": "Are you a party animal? Find your people and make some good memories. Within 2 minutes you can post your party for free and let the others know.",
+        "card2-header": "Find",
+        "card3-header": "Party",
+        "waiting": "What are you waiting for ?"
+    },
+    "auth": {
+        "email": "Email address",
+        "password": "Password",
+        "confirm": "Confirm password",
+        "register": "Register",
+        "unavailable": "This function is currently unavailable",
+        "login":"Login"
+    }
+}

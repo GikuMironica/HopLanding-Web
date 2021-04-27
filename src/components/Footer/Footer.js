@@ -16,6 +16,12 @@ function Footer() {
       width: "50%",
     }),
   };
+
+  const changeLanguage = (event) => {
+    i18n.changeLanguage(event.value);
+    localStorage.setItem("language", JSON.stringify(event.value));
+  };
+
   return (
     <div>
       <nav class="footer">
@@ -33,7 +39,7 @@ function Footer() {
             </div>
             <div className="col-md-4">
               <h4>{t("footer.lang")}</h4>
-              <Select options={options} />
+              <Select options={options} onChange={changeLanguage} />
             </div>
           </div>
 
