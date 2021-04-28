@@ -103,46 +103,46 @@ You can revoke your consent by sending an e-mail to support@hopaut.com or by sen
 
 1. The Application also uses the services of **OneSignal** to send push notifications to Licensee to notify Licensee of all event-related activities by means of notifications. Initially, we will use a free account with OneSignal to manage this. The free account does not give us full DS GMO capabilities. If we update our chart of accounts, we could make full use of the data provided to us by Licensee through the OneSignal Mobile SDK.
 
-   OneSignal,
-   2850 S Delaware St Suite 201,
-   San Mateo, 
-   CA 94403, USA.
+   OneSignal,  
+   2850 S Delaware St Suite 201,  
+   San Mateo,   
+   CA 94403, USA.  
 
-   Website: https://onesignal.com/
-   Privacy: <https://onesignal.com/privacy_policy>.
+   Website: <https://onesignal.com/>  
+   Privacy: <https://onesignal.com/privacy_policy>.  
 
 2. The Application also uses services provided by **Here Technologies** to provide location services and map data.
 
-   HERE Global B.V.,
-   Kennedyplein 222-226,
-   5611 ZT Eindhoven, 
-   Netherlands
+   HERE Global B.V.,  
+   Kennedyplein 222-226,  
+   5611 ZT Eindhoven,   
+   Netherlands  
 
-   Website: https://www.here.com/
-   Privacy Policy: https://legal.here.com/en-gb/privacy
+   Website: <https://www.here.com/>  
+   Privacy Policy: <https://legal.here.com/en-gb/privacy>  
 
 3. **Facebook:** Social Network; 
 
-   Facebook Ireland Ltd
-   4 Grand Canal Square
-   Grand Canal Harbour
-   Dublin 2, Ireland.
+   Facebook Ireland Ltd  
+   4 Grand Canal Square  
+   Grand Canal Harbour  
+   Dublin 2, Ireland.  
 
    Parent Company:
 
-   Facebook
-   1 Hacker Way
-   Menlo Park
-   CA 94025, USA.
-
-   Website: https://www.facebook.com
-   Privacy Policy: https://www.facebook.com/about/privacy
-   Privacy Shield: https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&status=Active; 
-
-   Opt-out:
-
-   Settings for advertisements: https://www.facebook.com/settings?tab=ads
-   Further information on data protection: <https://www.facebook.com/legal/terms/page_controller_addendum>
+   Facebook  
+   1 Hacker Way  
+   Menlo Park  
+   CA 94025, USA.  
+      
+   Website: <https://www.facebook.com>  
+   Privacy Policy: <https://www.facebook.com/about/privacy>  
+   Privacy Shield: <https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC&status=Active>  
+  
+   Opt-out:  
+  
+   Settings for advertisements: <https://www.facebook.com/settings?tab=ads>  
+   Further information on data protection: <https://www.facebook.com/legal/terms/page_controller_addendum>  
    Further information can be found at <https://www.facebook.com/legal/terms/information_about_page_insights_data>.
 
 **Status: 20.06.2020**

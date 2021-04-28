@@ -3,6 +3,8 @@ import "./Login.css";
 import Logo from "../../assets/images/logo.png";
 import { useTranslation } from "react-i18next";
 function Login() {
+  const {t} = useTranslation();
+
   return (
     <div className="container">
       <div className="row">
@@ -13,7 +15,7 @@ function Login() {
               <img src={Logo} style={{ width: 120 }} />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+              <label for="exampleInputEmail1">{t("auth.email")}</label>
               <input
                 type="email"
                 class="form-control"
@@ -22,7 +24,7 @@ function Login() {
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
+              <label for="exampleInputPassword1">{t("auth.password")}</label>
               <input
                 type="password"
                 class="form-control"
@@ -35,15 +37,15 @@ function Login() {
                 class="btn btn-secondary disabled"
                 data-toggle="tooltip"
                 data-placement="top"
-                title="This function is currently unavailable."
+                title={t("auth.unavailable")}
               >
-                Login
+                {t("auth.login")}
               </button>
               <small
                 class="form-text text-muted"
                 style={{ textAlign: "center", marginTop: 10 }}
               >
-                This function is currently unavailable.
+                {t("auth.unavailable")}
               </small>
             </div>
           </div>

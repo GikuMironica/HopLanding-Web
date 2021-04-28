@@ -14,34 +14,36 @@ function Impressum() {
         }}
       >
         <div className="impressum">
-          <h1 style={{paddingBottom: 25}}>Impressum</h1>
+          <h1 style={{paddingBottom: 25}}>{t("impressum.title")}</h1>
+          <p>{t("impressum.subtitle")}</p>
           <div className="main-info">
             <div>
-              <h5>HopAut UG (haftungsbeschränkt)</h5>
-              <p>Speditionstraße 15A,<br />40221 Düsseldorf</p>
+              <address>
+              <strong>HopAut UG (haftungsbeschränkt)</strong>
+              <p>Speditionstraße 15A,<br />
+                40221 Düsseldorf<br />
+                {t("impressum.germany")}
+              </p>
+              </address>
               <p>
-                <a href="//www.hopaut.com">Website</a>
+                <strong>{t("impressum.website")}</strong>: <a href="//www.hopaut.com">www.hopaut.com</a><br/>
+                <strong>Email</strong>: legal at hopaut.com
               </p>
             </div>
           </div>
           <div className="contact-info">
             <div>
-              <h5>{t("impressum.founder-title")}</h5>
+              <h5><strong>{t("impressum.founder-title")}</strong></h5>
               <p>Gheorghe Mironica </p>
             </div>
           </div>
           <div className="contact-info">
             <div>
-              <h5>{t("impressum.headquarters")}</h5>
-              <p>Speditionstraße 15A,<br />40221 Düsseldorf</p>
-            </div>
-          </div>
-          <div className="contact-info">
-            <div>
-              <h5>
+              <h5><strong>
                 {t("impressum.vat-id")}
+              </strong>
               </h5>
-              <p>DE XXXXXXXXX</p>
+              <p>DE 337158071</p>
             </div>
           </div>
         </div>

@@ -10,20 +10,21 @@
         "ultimate": "Your ultimate event companion.",
         "build": "Build up a community",
         "community": "Join the biggest community of party people",
-        "wait": "Don't wait for the perfect opportunity, hop-out!"
+        "wait": "Don't wait for the perfect opportunity, HopAut!"
     },
     "footer": {
         "company": "Company",
         "about": "About Us",
-        "impressum": "Impprint",
+        "impressum": "Imprint",
         "legal": "Legal",
         "lang": "Language",
         "privacy": "Privacy Policy",
-        "terms": "Terms of Service"
+        "terms": "Terms of Service",
+        "newsletter-text": "Subscribe to our newsletter to be notified about updates to HopAut."
     },
     "us": {
         "mission": "Our mission",
-        "paragraph1": "Tired of spending endless hours searching for interesting and fun activities around you ? You came to the right address! Our mission is to make you hop out of your house and join the events that you're looking for, find people with the same interests and make new connections",
+        "paragraph1": "Tired of spending endless hours searching for interesting and fun activities around you? Our mission is to make you hop out of your house and join the events that you're looking for, find people with the same interests and make new connections",
         "paragraph2": "Enjoy the endless possibilities of finding new friends, exploring different cities and enjoying life all with a few clicks on your phone or computer. Don't wait for the perfect opportunity, create one yourself!",
         "hopout": "What is Hopout?",
         "hopout1": "HopAut is a geosocial mobile and web based application allowing user to easily create, attend and explore various types of events scattered around their city!",
@@ -46,6 +47,10 @@
         "login":"Login"
     },
     "impressum": {
+        "subtitle": "Information according to § 5 TMG.",
+        "website": "Website",
+        "germany": "Germany",
+        "title": "Imprint",
         "founder-title": "Founder",
         "headquarters": "Headquarters",
         "vat-id": "VAT Identification number"

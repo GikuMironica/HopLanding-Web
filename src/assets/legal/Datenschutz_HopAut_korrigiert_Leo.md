@@ -108,46 +108,46 @@ Den Widerruf können Sie per Mail an support@hopaut.com oder durch eine Nachrich
 
 1. Die Anwendung verwendet auch die Dienste von **OneSignal** für das Versenden von Push-Benachrichtigungen an den Lizenznehmer, um ihn mittels Benachrichtigungen über alle ereignisbezogenen Aktivitäten zu informieren. Zu Beginn verwenden wir zur Verwaltung dieses Vorgangs ein kostenloses Konto bei OneSignal, um dies zu verwalten. Das kostenlose Konto bietet uns nicht die vollen DS GMO-Fähigkeiten. Wenn wir unseren Kontenplan aktualisieren, könnten wir die Daten, die uns vom Lizenznehmer über das OneSignal Mobile SDK zur Verfügung gestellt werden, vollständig nutzen.
 
-   OneSignal,
-   2850 S Delaware St Suite 201,
-   San Mateo, 
-   CA 94403, USA.
+   OneSignal,  
+   2850 S Delaware St Suite 201,  
+   San Mateo,   
+   CA 94403, USA.  
 
-   Webseite: https://onesignal.com/
-   Datenschutzerklärung: <https://onesignal.com/privacy_policy>.
+   Webseite: <https://onesignal.com/>  
+   Datenschutzerklärung: <https://onesignal.com/privacy_policy>.  
 
 1. Die Anwendung nutzt auch Dienste von **Here Technologies** zur Bereitstellung von Ortungsdiensten und Kartendaten.
 
-   HERE Global B.V.,
-   Kennedyplein 222-226,
-   5611 ZT Eindhoven, 
-   Netherlands
+   HERE Global B.V.,  
+   Kennedyplein 222-226,  
+   5611 ZT Eindhoven,   
+   Netherlands  
 
-   Website: https://www.here.com/
-   Datenschutzerklärung: https://legal.here.com/en-gb/privacy
+   Website: <https://www.here.com/>  
+   Datenschutzerklärung: <https://legal.here.com/en-gb/privacy>  
 
 1. **Facebook**: Soziales Netzwerk;
 
-   Facebook Ireland Ltd.
-   4 Grand Canal Square
-   Grand Canal Harbour
-   Dublin 2, Ireland
+   Facebook Ireland Ltd.   
+   4 Grand Canal Square  
+   Grand Canal Harbour  
+   Dublin 2, Ireland  
 
    Mutterkonzern: 
 
-   Facebook
-   1 Hacker Way
-   Menlo Park
-   CA 94025, USA.
+   Facebook  
+   1 Hacker Way  
+   Menlo Park  
+   CA 94025, USA.  
 
-   Website: [https://www.facebook.com](https://www.facebook.com/)
-   Datenschutzerklärung: <https://www.facebook.com/about/privacy>
-   Privacy Shield: https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC
+   Website: [https://www.facebook.com](https://www.facebook.com/)  
+   Datenschutzerklärung: <https://www.facebook.com/about/privacy>  
+   Privacy Shield: <https://www.privacyshield.gov/participant?id=a2zt0000000GnywAAC>  
 
    Widerspruchsmöglichkeit: 
 
-   Einstellungen für Werbeanzeigen: <https://www.facebook.com/settings?tab=ads>
-   Weitere Infos rund um den Datenschutz: <https://www.facebook.com/legal/terms/page_controller_addendum>
+   Einstellungen für Werbeanzeigen: <https://www.facebook.com/settings?tab=ads>  
+   Weitere Infos rund um den Datenschutz: <https://www.facebook.com/legal/terms/page_controller_addendum>  
    Weitere sei hierauf verwiesen: <https://www.facebook.com/legal/terms/information_about_page_insights_data>.
 
 **Stand: 20.06.2020**
