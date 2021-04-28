@@ -44,5 +44,10 @@
         "register": "Register",
         "unavailable": "This function is currently unavailable",
         "login":"Login"
+    },
+    "impressum": {
+        "founder-title": "Geschäftsführer",
+        "headquarters": "Sitz der Gesellschaft",
+        "vat-id": "Umsatzsteuer-Identifikationsnummer"
     }
 }

@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
-function impressum() {
+function Impressum() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="container">
       <div
@@ -11,32 +14,32 @@ function impressum() {
         }}
       >
         <div className="impressum">
-          <h3>HopAut UG (haftungsbeschränkt)</h3>
+          <h1 style={{paddingBottom: 25}}>Impressum</h1>
           <div className="main-info">
             <div>
-              <h5>Address Line</h5>
-              <p>Speditionstraße 15A, 40221 Düsseldorf</p>
+              <h5>HopAut UG (haftungsbeschränkt)</h5>
+              <p>Speditionstraße 15A,<br />40221 Düsseldorf</p>
               <p>
-                <a href="www.hopaut.com">Website</a>
+                <a href="//www.hopaut.com">Website</a>
               </p>
             </div>
           </div>
           <div className="contact-info">
             <div>
-              <h5>Founder / Geschäftsführer</h5>
+              <h5>{t("impressum.founder-title")}</h5>
               <p>Gheorghe Mironica </p>
             </div>
           </div>
           <div className="contact-info">
             <div>
-              <h5>Headquarters / Sitz der Gesellschaft</h5>
-              <p>Speditionstraße 15A, 40221 Düsseldorf</p>
+              <h5>{t("impressum.headquarters")}</h5>
+              <p>Speditionstraße 15A,<br />40221 Düsseldorf</p>
             </div>
           </div>
           <div className="contact-info">
             <div>
               <h5>
-                VAT indentification number / Umsatzsteuer-Identifikationsnummer
+                {t("impressum.vat-id")}
               </h5>
               <p>DE XXXXXXXXX</p>
             </div>
@@ -47,4 +50,4 @@ function impressum() {
   );
 }
 
-export default impressum;
+export default Impressum;
