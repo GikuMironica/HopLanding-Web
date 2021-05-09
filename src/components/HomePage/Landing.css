@@ -166,9 +166,9 @@
     }
 
     .phone img{
-        max-width: 500px;
-        padding-right: 1%;
-        margin-left: -145px;
+        max-width: 400px;
+         padding-right: 1%;
+         margin-left: -71px;
     }
 
     .landing-container .download-now{
@@ -180,6 +180,11 @@
     .landing-container .download-now h1{
         font-size:1.02em;
     }
+
+    .download-now-buttons{
+        margin-top: 0px;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -207,9 +212,9 @@
      }
  
      .phone img{
-         max-width: 500px;
+         max-width: 400px;
          padding-right: 1%;
-         margin-left: -145px;
+         margin-left: -71px;
      }
  
      .landing-container .download-now{
@@ -246,9 +251,9 @@
      }
  
      .phone img{
-         max-width: 500px;
-         padding-right: 1%;
-         margin-left: -145px;
+        max-width: 400px;
+        padding-right: 1%;
+        margin-left: -71px;
      }
  
      .landing-container .download-now{

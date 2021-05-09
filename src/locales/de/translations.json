@@ -6,11 +6,11 @@
         "login": "Anmelden"
     },
     "landing": {
-        "find": "Finde heraus, was sich in deiner Umgebung abspielt.",
+        "find": "Finde heraus, was in deiner Umgebung los ist.",
         "ultimate": "Deine ultimative Party App",
-        "build": "Baue dir deine Community auf",
-        "community": "Steige ein in die größte Community für Partyleute",
-        "wait": "Warte nicht auf den perfekten Zeitpunkt, sondern HopAut!"
+        "build": "Mach mit!",
+        "community": "bei der ultimativen Community von Partymenschen",
+        "wait": "HopAut ist der richtige Ort, um Dinge offline zu erleben!"
     },
     "footer": {
         "company": "Unternehmen",
@@ -23,20 +23,19 @@
         "newsletter-text": "Registriere dich in unserem Newsletter, um über die neuesten Updates von HopAut informiert zu werden."
     },
     "us": {
-        "mission": "Unser Ziel",
-        "paragraph1": "Hast du es satt stundenlang nach interessanten und spaßigen Aktiviäten oder Partys zu suchen? Dann bist du bei uns bei der richtigen Adresse! Wir haben es uns zum Ziel gesetzt dich aus deinem Haus nach Draußen zu kriegen und spaßigen Events, nach denen du auf der Suche bist beizutreten, um neue Leute mit den gleichen Interessen zu finden und den Kontakt zu Ihnen aufzubauen.",
-        "paragraph2": "Nutze die Möglichkeit neue Freunde zu finden, neue Städte kennenzulernen und das Leben mit ein paar bloßen Klicks auf deinem Computer oder Smartphone zu genießen. Warte nicht auf den perfekten Moment, kreiere deinen eigenen perfekten Moment mit unserer App!",
+        "mission": "Unsere Mission",
+        "paragraph1": "Bist du müde endlose Stunden zu verbringen, um interessante und lustige Aktivitäten um dich herum zu suchen?  Egal wo du wohnst unsere Mission ist es dich raus aus deinem Haus zu holen und ermöglichen dir durch unsere Plattform passende Veranstaltungen zu finden.",
+        "paragraph2": "Genieß die endlosen Möglichkeiten! Mit Hopaut kannst du die richtigen Partys für dich und deine Freunde finden. Keine passende Party gefunden? Kein Problem, schmeiß durch unsere Plattform eine unvergessliche Party selbst an der sich jeder gerne erinnern würde.",
         "hopout": "Was ist HopAut?",
-        "hopout1": "HopAut ist eine Standortbezogene und webbasierte App, die es dir ermöglicht, auf einfache Weise verschiedenste Arten von Veranstaltungen, die in deiner Umgebung sind, zu besuchen oder selbst zu erstellen.",
-        "hopout2": "Mit Hilfe von GPS-Tracking kann HopAut deinen aktuelle Standort herausfinden und dir Veranstaltungen in deiner Nähe anzeigen, so dass du nicht mehr stundenlang nach attraktiven Events suchen musst.",
+        "hopout1": "Hopaut ist eine geosoziale App, mit der du leicht verschiedene Veranstaltungen leicht erstellen oder an denen teilnehmen kannst.",
         "horizon": "The sky is the limit",
         "card1-header": "Registrieren",
-        "card1-text": "Wir haben keine langen Registrierungsprozesse und eigen Formulare. Du kannst dich innerhalb einer Minute registrieren und sofort loslegen. Also HopAut!",
-        "card2-text": "Es ist ganz egal nach was du suchst. Ob Partys, Auto-, Fahrrad-, oder Motorrad treffen, du findest sie alle hier, also verpasse nicht die Möglichkeit!",
-        "card3-text": "Du bist ein Partylöwe? Dann finde hier deine Leute und sorgt dafür, dass ihr euch schöne Erinnerungen machen könnt. Innerhalb 2 Minuten kannst du deine Party kostenfrei hochladen und die Anderen davon wissen lassen.",
+        "card1-text": "Keine endlose Registrierungsvorgänge und Formulare mehr. Registriere dich innerhalb einer Minute und steig in unsere Party-Community ein!",
+        "card2-text": "Ob es sich um Partys, Auto-, Fahrrad-, oder Motorradtreffen handelt, du findest sie alle hier, also verpasse deine Chance nicht!",
+        "card3-text": "Bist du ein Partyanimal? Innerhalb von 2 Minuten kannst du deine Party kostenlos auf unsere Plattform posten und die anderen darüber wissen lassen!",
         "card2-header": "Suche",
         "card3-header": "Party",
-        "waiting": "Auf was wartest du noch?"
+        "waiting": "Worauf wartest du noch?"
     },
     "auth": {
         "email": "Email-Adresse",

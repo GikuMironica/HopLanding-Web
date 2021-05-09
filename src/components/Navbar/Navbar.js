@@ -5,6 +5,7 @@ import "./Navbar.css";
 import Logo from "../../assets/images/logo.png";
 function Navbar({}) {
   const [active, setActive] = useState(0);
+  const [isOpened, setOpen] = useState(false);
   const history = useHistory();
 
   const links = [
@@ -22,6 +23,10 @@ function Navbar({}) {
     history.push("/login");
     setActive(-1);
   };
+
+  const openNavbar = () => {
+    setOpen((isOpened) => !isOpened);
+  };
   return (
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
@@ -31,6 +36,7 @@ function Navbar({}) {
         <button
           class="navbar-toggler"
           type="button"
+          onClick={openNavbar}
           data-toggle="collapse"
           aria-controls="navbarSupportedContent"
           data-target="#navbarSupportedContent"
@@ -40,7 +46,14 @@ function Navbar({}) {
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          class={
+            isOpened
+              ? "collapse navbar-collapse show"
+              : "collapse navbar-collapse"
+          }
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav ml-auto">
             {links.map((item, index) => {
               return (

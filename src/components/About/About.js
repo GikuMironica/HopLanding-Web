@@ -41,9 +41,6 @@ function About() {
             <div>
               <p>{t("us.hopout1")}</p>
             </div>
-            <div>
-              <p>{t("us.hopout2")}</p>
-            </div>
           </div>
         </div>
       </div>

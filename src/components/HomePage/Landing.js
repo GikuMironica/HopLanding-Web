@@ -6,8 +6,7 @@ import Play from "../../assets/images/google-play-badge.png";
 import Apple from "../../assets/images/apple-download-badge.svg";
 import { useTranslation } from "react-i18next";
 function Landing() {
-
-  const {t, i18n} = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <div>
