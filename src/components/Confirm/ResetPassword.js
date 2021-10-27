@@ -1,47 +1,24 @@
 import React, { useEffect, useState } from "react";
 import queryString from "query-string";
 import axios from "axios";
-import ConfirmEmailIconSvg from "../../assets/images/confirm_email.svg";
+import ConfirmEmailIconSvg from "../../assets/images/reset_password.svg";
+import "./confirm.css";
+import { useTranslation } from "react-i18next";
 
-const ConfirmEmail = () => {
-  const queryStringParams = queryString.parse(window.location.search);
-
-  const [showConfirmButton, setConfirmButton] = useState(false);
-  const [showConfirmed, setRegisterConfirmed] = useState(false);
-
-  useEffect(() => {
-    if (queryStringParams) {
-      if (queryStringParams.token !== "" && queryStringParams.userId !== "") {
-        confirm();
-      }
-    }
-  }, []);
-
-  const confirm = () => {
-    let obj = {
-      token: queryStringParams.token,
-      email: queryStringParams.email,
-    };
-
-    axios
-      .get(
-        `https://hop-out.com/api/v1/identity/resetpassword?email=${obj.email}&token=${obj.token}`,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      )
-      .then((data) => {
-        if (data.status === 200) {
-          setRegisterConfirmed(true);
-        }
-      });
-  };
+const ResetPassword = () => {
+  const { t } = useTranslation();
 
   return (
-    <div>{showConfirmed && <p>Temporary password successfully created</p>}</div>
+    <div className="confirmWrapper">
+      <img
+        src={ConfirmEmailIconSvg}
+        className="confirm-image"
+        style={{ marginLeft: 100 }}
+      />
+      <p className="confirm-success-title">{t("confirm.password")}</p>
+      <p>{t("confirm.passwordInstruction")}</p>
+    </div>
   );
 };
 
-export default ConfirmEmail;
+export default ResetPassword;

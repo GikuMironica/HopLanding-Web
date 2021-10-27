@@ -29,7 +29,7 @@ function App() {
             />
             <Route
               exact
-              path="account/resetpassword"
+              path="/account/resetpassword"
               component={ResetPassword}
             />
             <Route exact path="/legal/privacy" component={LegalPrivacy} />

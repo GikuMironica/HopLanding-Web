@@ -26,7 +26,7 @@ function Footer() {
       <nav className="footer">
         <div className="container clearfix">
           <div className="row d-flex justify-content-start navigation">
-            <div className="col-md align-items-start">
+            <div className="col-md-4 align-items-start">
               <h4>HopAut</h4>
               <ul className="list-unstyled">
                 <li>
@@ -40,7 +40,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md align-items-start">
+            <div className="col-md-4 align-items-start">
               <h4>{t("footer.company")}</h4>
               <ul className="list-unstyled">
                 <li>
@@ -48,7 +48,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-md align-items-start">
+            <div className="col-md-4 align-items-start">
               <h4>{t("footer.legal")}</h4>
               <ul className="list-unstyled">
                 <li>
@@ -61,28 +61,6 @@ function Footer() {
                   <Link to="/legal/impressum">{t("footer.impressum")}</Link>
                 </li>
               </ul>
-            </div>
-            <div className="col-md align-items-start">
-              <h4>Newsletter</h4>
-              <form>
-                <div className="input-group mb-3">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder={t("auth.email")}
-                    aria-label="Email address"
-                    aria-describedby="button-addon2"
-                  />
-                  <button
-                    className="btn btn-outline-secondary"
-                    type="button"
-                    id="button-addon2"
-                  >
-                    <ArrowForwardOutline color={"#FFFFFF"} />
-                  </button>
-                </div>
-              </form>
-              <p className="fs-6">{t("footer.newsletter-text")}</p>
             </div>
           </div>
           <div className="copyright">

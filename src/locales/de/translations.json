@@ -1,57 +1,63 @@
 {
-    "header": {
-        "home": "Home",
-        "about": "Über uns",
-        "register": "Registrieren",
-        "login": "Anmelden"
-    },
-    "landing": {
-        "find": "Finde heraus, was in deiner Umgebung los ist.",
-        "ultimate": "Deine ultimative Party App",
-        "build": "Mach mit!",
-        "community": "bei der ultimativen Community von Partymenschen",
-        "wait": "HopAut ist der richtige Ort zu knüpfen!"
-    },
-    "footer": {
-        "company": "Unternehmen",
-        "about": "Über uns",
-        "impressum": "Impressum",
-        "legal": "Legal",
-        "lang": "Sprache wählen",
-        "privacy": "Datenschutzerklärung",
-        "terms": "AGBs",
-        "newsletter-text": "Registriere dich in unserem Newsletter, um über die neuesten Updates von HopAut informiert zu werden."
-    },
-    "us": {
-        "mission": "Unsere Mission",
-        "paragraph1": "Bist du müde endlose Stunden zu verbringen, um interessante und lustige Aktivitäten um dich herum zu suchen?  Egal wo du wohnst unsere Mission ist es dich raus aus deinem Haus zu holen und ermöglichen dir durch unsere Plattform passende Veranstaltungen zu finden.",
-        "paragraph2": "Genieß die endlosen Möglichkeiten! Mit Hopaut kannst du die richtigen Partys für dich und deine Freunde finden. Keine passende Party gefunden? Kein Problem, schmeiß durch unsere Plattform eine unvergessliche Party selbst an der sich jeder gerne erinnern würde.",
-        "hopout": "Was ist HopAut?",
-        "hopout1": "Hopaut ist eine geosoziale App, mit der du leicht verschiedene Veranstaltungen leicht erstellen oder an denen teilnehmen kannst.",
-        "horizon": "The sky is the limit",
-        "card1-header": "Registrieren",
-        "card1-text": "Keine endlose Registrierungsvorgänge und Formulare mehr. Registriere dich innerhalb einer Minute und steig in unsere Party-Community ein!",
-        "card2-text": "Ob es sich um Partys, Auto-, Fahrrad-, oder Motorradtreffen handelt, du findest sie alle hier, also verpasse deine Chance nicht!",
-        "card3-text": "Bist du ein Partyanimal? Innerhalb von 2 Minuten kannst du deine Party kostenlos auf unsere Plattform posten und die anderen darüber wissen lassen!",
-        "card2-header": "Suche",
-        "card3-header": "Party",
-        "waiting": "Worauf wartest du noch?"
-    },
-    "auth": {
-        "email": "Email-Adresse",
-        "password": "Passwort",
-        "confirm": "Passwort bestätigen",
-        "register": "Registrieren",
-        "unavailable": "Diese Funktion ist momentan nicht verfügbar",
-        "login":"Anmelden"
-    },
-    "impressum": {
-        "subtitle": "Informationspflicht laut § 5 TMG.",
-        "website": "Webseite",
-        "germany": "Deutschland",
-        "title": "Impressum",
-        "founder-title": "Geschäftsführer",
-        "headquarters": "Sitz der Gesellschaft",
-        "vat-id": "Umsatzsteuer-Identifikationsnummer"
-    }
+  "header": {
+    "home": "Home",
+    "about": "Über uns",
+    "register": "Registrieren",
+    "login": "Anmelden"
+  },
+  "landing": {
+    "find": "Finde heraus, was in deiner Umgebung los ist.",
+    "ultimate": "Deine ultimative Party App",
+    "build": "Mach mit!",
+    "community": "bei der ultimativen Community von Partymenschen",
+    "wait": "HopAut ist der richtige Ort zu knüpfen!"
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "impressum": "Impressum",
+    "legal": "Legal",
+    "lang": "Sprache wählen",
+    "privacy": "Datenschutzerklärung",
+    "terms": "AGBs",
+    "newsletter-text": "Registriere dich in unserem Newsletter, um über die neuesten Updates von HopAut informiert zu werden."
+  },
+  "us": {
+    "mission": "Unsere Mission",
+    "paragraph1": "Bist du müde endlose Stunden zu verbringen, um interessante und lustige Aktivitäten um dich herum zu suchen?  Egal wo du wohnst unsere Mission ist es dich raus aus deinem Haus zu holen und ermöglichen dir durch unsere Plattform passende Veranstaltungen zu finden.",
+    "paragraph2": "Genieß die endlosen Möglichkeiten! Mit Hopaut kannst du die richtigen Partys für dich und deine Freunde finden. Keine passende Party gefunden? Kein Problem, schmeiß durch unsere Plattform eine unvergessliche Party selbst an der sich jeder gerne erinnern würde.",
+    "hopout": "Was ist HopAut?",
+    "hopout1": "Hopaut ist eine geosoziale App, mit der du leicht verschiedene Veranstaltungen leicht erstellen oder an denen teilnehmen kannst.",
+    "horizon": "The sky is the limit",
+    "card1-header": "Registrieren",
+    "card1-text": "Keine endlose Registrierungsvorgänge und Formulare mehr. Registriere dich innerhalb einer Minute und steig in unsere Party-Community ein!",
+    "card2-text": "Ob es sich um Partys, Auto-, Fahrrad-, oder Motorradtreffen handelt, du findest sie alle hier, also verpasse deine Chance nicht!",
+    "card3-text": "Bist du ein Partyanimal? Innerhalb von 2 Minuten kannst du deine Party kostenlos auf unsere Plattform posten und die anderen darüber wissen lassen!",
+    "card2-header": "Suche",
+    "card3-header": "Party",
+    "waiting": "Worauf wartest du noch?"
+  },
+  "auth": {
+    "email": "Email-Adresse",
+    "password": "Passwort",
+    "confirm": "Passwort bestätigen",
+    "register": "Registrieren",
+    "unavailable": "Diese Funktion ist momentan nicht verfügbar",
+    "login": "Anmelden"
+  },
+  "impressum": {
+    "subtitle": "Informationspflicht laut § 5 TMG.",
+    "website": "Webseite",
+    "germany": "Deutschland",
+    "title": "Impressum",
+    "founder-title": "Geschäftsführer",
+    "headquarters": "Sitz der Gesellschaft",
+    "vat-id": "Umsatzsteuer-Identifikationsnummer"
+  },
+  "confirm": {
+    "password": "Passwort erfolgreich zurücksetzen",
+    "passwordInstruction": "Ein neues temporäres Passwort wurde generiert, bitte überprüfen Sie Ihren Posteingang",
+    "email": "E-Mail erfolgreich bestätigt",
+    "emailInstruction": "Sie können sich jetzt in die Anwendung einloggen und mit der Erkundung beginnen"
+  }
 }
