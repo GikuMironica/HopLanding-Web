@@ -8,6 +8,8 @@ import Footer from "./components/Footer/Footer";
 import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
 import Impressum from "./components/Legal/impressum";
+import ConfirmEmail from "./components/Confirm/ConfirmEmail";
+import ResetPassword from "./components/Confirm/ResetPassword";
 import "./App.css";
 
 function App() {
@@ -20,6 +22,16 @@ function App() {
             <Route exact path="/" component={HomeScreen} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
+            <Route
+              exact
+              path="/account/confirmemail"
+              component={ConfirmEmail}
+            />
+            <Route
+              exact
+              path="account/resetpassword"
+              component={ResetPassword}
+            />
             <Route exact path="/legal/privacy" component={LegalPrivacy} />
             <Route exact path="/legal/impressum" component={Impressum} />
             <Route exact path="/legal/terms" component={LegalTerms} />
