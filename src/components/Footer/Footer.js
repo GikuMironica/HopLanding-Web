@@ -6,21 +6,8 @@ import { useTranslation } from "react-i18next";
 import { ArrowForwardOutline } from "react-ionicons";
 
 function Footer() {
-  const options = [
-    { value: "de", label: "German" },
-    { value: "en", label: "English" },
-  ];
-
   const { t, i18n } = useTranslation();
 
-  const changeLanguage = (event) => {
-    i18n.changeLanguage(event.value);
-    localStorage.setItem("language", JSON.stringify(event.value));
-  };
-
-  const chosenLanguageIndex = options.indexOf(
-    options.find((item) => item.value === i18n.language)
-  );
   return (
     <div>
       <nav className="footer">
@@ -65,13 +52,6 @@ function Footer() {
           </div>
           <div className="copyright">
             <div className="row d-flex align-items-center">
-              <div className="col-md align-items-start">
-                <Select
-                  defaultValue={options[chosenLanguageIndex]}
-                  options={options}
-                  onChange={changeLanguage}
-                />
-              </div>
               <div className="col-md align-items-end">
                 <p>&copy; 2021 Hopaut UG (haftungsbeschränkt)</p>
               </div>

@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About us",
     "register": "Register",
-    "login": "Login"
+    "login": "Login",
+    "team": "Our team"
   },
   "landing": {
     "find": "Find what's happening around you.",

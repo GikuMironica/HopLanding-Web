@@ -26,7 +26,17 @@ function Landing() {
                   <div className="apple">
                     <img src={Apple} style={{ width: 122, marginTop: 1 }} />
                   </div>
-                  <div className="google" style={{ position: "relative" }}>
+                  <div
+                    className="google"
+                    style={{ position: "relative" }}
+                    onClick={() =>
+                      window.open(
+                        "https://play.google.com/store/apps/details?id=com.hopaut.hopaut",
+                        "_blank"
+                      )
+                    }
+                    style={{ cursor: "pointer" }}
+                  >
                     <img src={Play} style={{ width: 152 }} />
                   </div>
                 </div>
@@ -65,7 +75,16 @@ function Landing() {
                   <div className="apple">
                     <img src={Apple} style={{ width: 122, marginTop: 1 }} />
                   </div>
-                  <div className="google">
+                  <div
+                    className="google"
+                    onClick={() =>
+                      window.open(
+                        "https://play.google.com/store/apps/details?id=com.hopaut.hopaut",
+                        "_blank"
+                      )
+                    }
+                    style={{ cursor: "pointer" }}
+                  >
                     <img src={Play} style={{ width: 152 }} />
                   </div>
                 </div>

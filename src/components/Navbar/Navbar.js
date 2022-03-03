@@ -3,6 +3,8 @@ import { withRouter, useHistory } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./Navbar.css";
 import Logo from "../../assets/images/logo.png";
+import Select from "react-select";
+
 function Navbar({}) {
   const [active, setActive] = useState(0);
   const [isOpened, setOpen] = useState(false);
@@ -11,7 +13,7 @@ function Navbar({}) {
   const links = [
     { id: 0, text: "home", link: "/" },
     { id: 1, text: "about", link: "/about-us" },
-    { id: 2, text: "register", link: "/register" },
+    { id: 2, text: "team", link: "/team" },
   ];
   const { t, i18n } = useTranslation();
   const setActiveLink = (index, url) => {
@@ -27,6 +29,21 @@ function Navbar({}) {
   const openNavbar = () => {
     setOpen((isOpened) => !isOpened);
   };
+
+  const options = [
+    { value: "de", label: "German" },
+    { value: "en", label: "English" },
+  ];
+
+  const changeLanguage = (event) => {
+    i18n.changeLanguage(event.value);
+    localStorage.setItem("language", JSON.stringify(event.value));
+  };
+
+  const chosenLanguageIndex = options.indexOf(
+    options.find((item) => item.value === i18n.language)
+  );
+
   return (
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
@@ -70,8 +87,12 @@ function Navbar({}) {
                 </>
               );
             })}
-            <li className="nav-item get-started" onClick={goToLogin}>
-              <a className="nav-link">{t("header.login")}</a>
+            <li className="nav-item">
+              <Select
+                defaultValue={options[chosenLanguageIndex]}
+                options={options}
+                onChange={changeLanguage}
+              />
             </li>
           </ul>
         </div>

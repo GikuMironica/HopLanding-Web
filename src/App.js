@@ -10,6 +10,8 @@ import Register from "./components/Auth/Register";
 import Impressum from "./components/Legal/impressum";
 import ConfirmEmail from "./components/Confirm/ConfirmEmail";
 import ResetPassword from "./components/Confirm/ResetPassword";
+import Team from "./components/Team/Team";
+
 import "./App.css";
 
 function App() {
@@ -20,8 +22,7 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={HomeScreen} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/register" component={Register} />
+            <Route exact path="/team" component={Team} />
             <Route
               exact
               path="/account/confirmemail"
