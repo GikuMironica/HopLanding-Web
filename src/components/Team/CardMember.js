@@ -2,17 +2,39 @@ import React from "react";
 import "./Team.css";
 import LinkedinLogo from "../../assets/images/linkedin.svg";
 import GithubLogo from "../../assets/images/github.svg";
-const CardMember = ({ role, teamMember }) => {
+const CardMember = ({
+  role,
+  teamMember,
+  memberInfo,
+  memberIcon,
+  linkedIn,
+  github,
+}) => {
   return (
     <div class="card-container">
       <span class="pro">{role}</span>
-      <img
-        class="round"
-        src="https://randomuser.me/api/portraits/men/1.jpg"
-        alt="user"
-      />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+        }}
+      >
+        <img
+          class="round"
+          src={memberIcon}
+          style={{ height: 144, width: 144 }}
+          alt="user"
+        />
+      </div>
       <h4>{teamMember}</h4>
-      <h6>
+      <h6
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+        }}
+      >
         <img
           src={LinkedinLogo}
           style={{
@@ -22,23 +44,16 @@ const CardMember = ({ role, teamMember }) => {
             cursor: "pointer",
           }}
           onClick={() =>
-            window.open(
-              "https://www.linkedin.com/in/tonislav-tachev-b0a336190/",
-              "_blank"
-            )
+            window.open(`https://www.linkedin.com/in/${linkedIn}`, "_blank")
           }
         />
         <img
           src={GithubLogo}
           style={{ height: 20, cursor: "pointer" }}
-          onClick={() =>
-            window.open("https://github.com/TonislavTachev", "_blank")
-          }
+          onClick={() => window.open(`https://github.com/${github}`, "_blank")}
         />
       </h6>
-      <p>
-        User interface designer and <br /> front-end developer
-      </p>
+      <p style={{ padding: 5 }}>{memberInfo}</p>
       <div class="skills">
         <h6>Skills</h6>
         <ul>

@@ -1,22 +1,112 @@
 import React from "react";
 import CardMember from "./CardMember";
 import "./Team.css";
-
+import Slider from "react-slick";
+import Giku from "../../assets/images/Gicu.png";
+import Tony from "../../assets/images/Tony.png";
+import Ivo from "../../assets/images/Ivo.png";
+import Livia from "../../assets/images/Livia.png";
+import Braz from "../../assets/images/Braz.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Team = () => {
   const team = [
-    { teamMember: "Gheorge Mironica", role: "CEO" },
-    { teamMember: "Ivailo Gatev", role: "COO" },
-    { teamMember: "Tonislav Tachev", role: "CTO" },
+    {
+      teamMember: "Gheorge Mironica",
+      role: "CEO",
+      memberInfo:
+        "Co-founder of Hopaut and leader of this team of young professionals.",
+      icon: Giku,
+      linkedIn: "gheorghemironica/",
+      github: "GikuMironica",
+    },
+    {
+      teamMember: "Ivailo Gatev",
+      role: "BE",
+      memberInfo: "Responsible for software quality, system performance.",
+      icon: Ivo,
+      linkedIn: "ivaylo-gatev-b68842180/",
+      github: "GikuMironica",
+    },
+    {
+      teamMember: "Tonislav Tachev",
+      role: "UI/UX",
+      memberInfo:
+        "An indispensable part of the team responsible for the app UI/UX.",
+      icon: Tony,
+      linkedIn: "tonislav-tachev-b0a336190/",
+      github: "TonislavTachev",
+    },
+    {
+      teamMember: "Livia Mironica",
+      role: "Design",
+      memberInfo:
+        "Responsible for the business development and digital marketing.",
+      icon: Livia,
+      linkedIn: "livia-mironica-412729183/",
+      github: "GikuMironica",
+    },
+    {
+      teamMember: "Braz Castana",
+      role: "BE",
+      memberInfo: "He's not a magician, but he may look like one.",
+      icon: Braz,
+      linkedIn: "braz-c2782/",
+      github: "brazc",
+    },
   ];
+
+  const settings = {
+    dots: true,
+    slidesToShow: 3,
+    arrows: true,
+    infinite: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  const slides = team.map((item, index) => (
+    <CardMember
+      role={item.role}
+      key={index}
+      teamMember={item.teamMember}
+      memberInfo={item.memberInfo}
+      memberIcon={item.icon}
+      linkedIn={item.linkedIn}
+      github={item.github}
+    />
+  ));
 
   return (
     <div className="container">
       <div className="team-members">
         <h3 style={{ textAlign: "center" }}>Meet the team behind the idea</h3>
         <div className="team-member-cards-container">
-          {team.map((item) => {
-            return <CardMember role={item.role} teamMember={item.teamMember} />;
-          })}
+          <Slider {...settings}>{slides}</Slider>
         </div>
       </div>
     </div>

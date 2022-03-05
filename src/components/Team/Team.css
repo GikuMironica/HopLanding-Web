@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
-.team-member-cards-container {
+/* .team-member-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
+} */
 
 .card-container {
 	background-color: #fffeff;
 	border-radius: 5px;
 	padding-top: 30px;
 	position: relative;
-	width: 300px;
+	width: 325px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	max-width: 100%;
 	text-align: center;
     margin-top: 30px;
@@ -89,5 +91,9 @@ footer {
     right: 0;
     text-align: center;
     z-index: 999;
+}
+
+.slick-next:before, .slick-prev:before{
+	color: #000 !important
 }
 
