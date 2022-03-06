@@ -19,12 +19,6 @@ function Footer() {
                 <li>
                   <Link to="/">{t("header.home")}</Link>
                 </li>
-                <li>
-                  <Link to="/login">{t("header.login")}</Link>
-                </li>
-                <li>
-                  <Link to="/register">{t("header.register")}</Link>
-                </li>
               </ul>
             </div>
             <div className="col-md-4 align-items-start">
@@ -32,6 +26,9 @@ function Footer() {
               <ul className="list-unstyled">
                 <li>
                   <Link to="/about-us">{t("footer.about")}</Link>
+                </li>
+                <li>
+                  <Link to="/team">{t("header.team")}</Link>
                 </li>
               </ul>
             </div>

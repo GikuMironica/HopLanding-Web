@@ -15,24 +15,14 @@ const Team = () => {
 
   const team = [
     {
-      teamMember: "Gheorge Mironica",
+      teamMember: "Gheorghe Mironica",
       role: "CEO",
       memberInfo:
         "Co-founder of Hopaut and leader of this team of young professionals.",
       icon: Giku,
       linkedIn: "gheorghemironica/",
       github: "GikuMironica",
-      skills: ["C#", ".NET 6", "Flutter", "AWS"],
-      hasGithub: true,
-    },
-    {
-      teamMember: "Ivailo Gatev",
-      role: "BE",
-      memberInfo: "Responsible for software quality, system performance.",
-      icon: Ivo,
-      linkedIn: "ivaylo-gatev-b68842180/",
-      github: "IvayloGatev",
-      skills: ["C#", ".NET", "Flutter", "Java"],
+      skills: ["C#", "ASP.NET 6", "AWS", "Flutter"],
       hasGithub: true,
     },
     {
@@ -54,17 +44,27 @@ const Team = () => {
       icon: Livia,
       linkedIn: "livia-mironica-412729183/",
       github: "GikuMironica",
-      skills: ["Google AdWord", "Facebook Ads", "Business"],
+      skills: ["Google Ads", "Facebook Ads", "Business Dev"],
       hasGithub: false,
     },
     {
+      teamMember: "Ivaylo Gatev",
+      role: "Mobile",
+      memberInfo: "Responsible for software quality, system performance.",
+      icon: Ivo,
+      linkedIn: "ivaylo-gatev-b68842180/",
+      github: "IvayloGatev",
+      skills: ["C#", ".NET", "Flutter", "Java", "Angular"],
+      hasGithub: true,
+    },
+    {
       teamMember: "Braz Castana",
-      role: "BE",
+      role: "Fullstack",
       memberInfo: "He's not a magician, but he may look like one.",
       icon: Braz,
       linkedIn: "braz-c2782/",
       github: "brazc",
-      skills: ["Python", "Flutter", "Java"],
+      skills: ["Python", "Flutter", "Typescript", "AWS"],
       hasGithub: true,
     },
   ];
