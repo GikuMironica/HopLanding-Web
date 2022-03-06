@@ -60,5 +60,9 @@
     "passwordInstruction": "A new temporary password has been generated, please check your inbox",
     "email": "Email successfully confirmed",
     "emailInstruction": "You can now log into the application and start exploring"
+  },
+  "team": {
+    "meet": "Meet the team behind the idea",
+    "skills": "Skills"
   }
 }

@@ -22,6 +22,8 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={HomeScreen} />
+            <Route exact path="/register" component={Register} />
+            <Route exact path="/login" component={Login} />
             <Route exact path="/team" component={Team} />
             <Route
               exact

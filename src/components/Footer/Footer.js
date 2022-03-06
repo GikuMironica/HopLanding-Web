@@ -7,7 +7,7 @@ import { ArrowForwardOutline } from "react-ionicons";
 
 function Footer() {
   const { t, i18n } = useTranslation();
-
+  const date = new Date();
   return (
     <div>
       <nav className="footer">
@@ -53,7 +53,9 @@ function Footer() {
           <div className="copyright">
             <div className="row d-flex align-items-center">
               <div className="col-md align-items-end">
-                <p>&copy; 2021 Hopaut UG (haftungsbeschränkt)</p>
+                <p>
+                  &copy; {date.getUTCFullYear()} Hopaut UG (haftungsbeschränkt)
+                </p>
               </div>
             </div>
           </div>

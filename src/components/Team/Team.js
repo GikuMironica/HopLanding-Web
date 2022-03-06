@@ -9,7 +9,10 @@ import Livia from "../../assets/images/Livia.png";
 import Braz from "../../assets/images/Braz.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useTranslation } from "react-i18next";
 const Team = () => {
+  const { t, i18n } = useTranslation();
+
   const team = [
     {
       teamMember: "Gheorge Mironica",
@@ -19,6 +22,8 @@ const Team = () => {
       icon: Giku,
       linkedIn: "gheorghemironica/",
       github: "GikuMironica",
+      skills: ["C#", ".NET 6", "Flutter", "AWS"],
+      hasGithub: true,
     },
     {
       teamMember: "Ivailo Gatev",
@@ -26,7 +31,9 @@ const Team = () => {
       memberInfo: "Responsible for software quality, system performance.",
       icon: Ivo,
       linkedIn: "ivaylo-gatev-b68842180/",
-      github: "GikuMironica",
+      github: "IvayloGatev",
+      skills: ["C#", ".NET", "Flutter", "Java"],
+      hasGithub: true,
     },
     {
       teamMember: "Tonislav Tachev",
@@ -36,6 +43,8 @@ const Team = () => {
       icon: Tony,
       linkedIn: "tonislav-tachev-b0a336190/",
       github: "TonislavTachev",
+      skills: ["React", "React Native", "Node.js", "Express"],
+      hasGithub: true,
     },
     {
       teamMember: "Livia Mironica",
@@ -45,6 +54,8 @@ const Team = () => {
       icon: Livia,
       linkedIn: "livia-mironica-412729183/",
       github: "GikuMironica",
+      skills: ["Google AdWord", "Facebook Ads", "Business"],
+      hasGithub: false,
     },
     {
       teamMember: "Braz Castana",
@@ -53,6 +64,8 @@ const Team = () => {
       icon: Braz,
       linkedIn: "braz-c2782/",
       github: "brazc",
+      skills: ["Python", "Flutter", "Java"],
+      hasGithub: true,
     },
   ];
 
@@ -98,13 +111,15 @@ const Team = () => {
       memberIcon={item.icon}
       linkedIn={item.linkedIn}
       github={item.github}
+      skills={item.skills}
+      hasGithub={item.hasGithub}
     />
   ));
 
   return (
     <div className="container">
       <div className="team-members">
-        <h3 style={{ textAlign: "center" }}>Meet the team behind the idea</h3>
+        <h3 style={{ textAlign: "center" }}>{t("team.meet")}</h3>
         <div className="team-member-cards-container">
           <Slider {...settings}>{slides}</Slider>
         </div>

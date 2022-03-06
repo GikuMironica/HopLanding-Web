@@ -28,14 +28,13 @@ function Landing() {
                   </div>
                   <div
                     className="google"
-                    style={{ position: "relative" }}
+                    style={{ position: "relative", cursor: "pointer" }}
                     onClick={() =>
                       window.open(
                         "https://play.google.com/store/apps/details?id=com.hopaut.hopaut",
                         "_blank"
                       )
                     }
-                    style={{ cursor: "pointer" }}
                   >
                     <img src={Play} style={{ width: 152 }} />
                   </div>

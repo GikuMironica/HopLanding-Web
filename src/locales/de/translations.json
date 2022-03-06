@@ -60,5 +60,9 @@
     "passwordInstruction": "Ein neues temporäres Passwort wurde generiert, bitte überprüfen Sie Ihren Posteingang",
     "email": "E-Mail erfolgreich bestätigt",
     "emailInstruction": "Sie können sich jetzt in die Anwendung einloggen und mit der Erkundung beginnen"
+  },
+  "team": {
+    "meet": "Treffen Sie das Team hinter der Idee",
+    "skills": "Kenntnisse"
   }
 }

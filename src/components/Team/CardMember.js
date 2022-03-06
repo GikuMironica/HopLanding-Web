@@ -2,6 +2,7 @@ import React from "react";
 import "./Team.css";
 import LinkedinLogo from "../../assets/images/linkedin.svg";
 import GithubLogo from "../../assets/images/github.svg";
+import { useTranslation } from "react-i18next";
 const CardMember = ({
   role,
   teamMember,
@@ -9,7 +10,11 @@ const CardMember = ({
   memberIcon,
   linkedIn,
   github,
+  skills,
+  hasGithub,
 }) => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div class="card-container">
       <span class="pro">{role}</span>
@@ -47,19 +52,23 @@ const CardMember = ({
             window.open(`https://www.linkedin.com/in/${linkedIn}`, "_blank")
           }
         />
-        <img
-          src={GithubLogo}
-          style={{ height: 20, cursor: "pointer" }}
-          onClick={() => window.open(`https://github.com/${github}`, "_blank")}
-        />
+        {hasGithub && (
+          <img
+            src={GithubLogo}
+            style={{ height: 20, cursor: "pointer" }}
+            onClick={() =>
+              window.open(`https://github.com/${github}`, "_blank")
+            }
+          />
+        )}
       </h6>
       <p style={{ padding: 5 }}>{memberInfo}</p>
       <div class="skills">
-        <h6>Skills</h6>
+        <h6>{t("team.skills")}</h6>
         <ul>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node</li>
+          {skills.map((item) => {
+            return <li>{item}</li>;
+          })}
         </ul>
       </div>
     </div>

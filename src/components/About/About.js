@@ -92,7 +92,16 @@ function About() {
               <img src={Apple} style={{ width: 122, marginTop: 1 }} />
             </div>
             <div className="google">
-              <img src={Play} style={{ width: 152 }} />
+              <img
+                src={Play}
+                style={{ width: 152, cursor: "pointer" }}
+                onClick={() =>
+                  window.open(
+                    "https://play.google.com/store/apps/details?id=com.hopaut.hopaut",
+                    "_blank"
+                  )
+                }
+              />
             </div>
           </div>
         </div>
