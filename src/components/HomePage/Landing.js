@@ -24,7 +24,7 @@ function Landing() {
                 </div>
                 <div className="download-buttons-row">
                   <div className="apple">
-                    <img src={Apple} style={{ width: 122, marginTop: 1 }} />
+                    <img src={Apple} style={{ width: 122, marginTop: 1 }} alt="Download HopAut App for IOS"/>
                   </div>
                   <div
                     className="google"
@@ -36,7 +36,7 @@ function Landing() {
                       )
                     }
                   >
-                    <img src={Play} style={{ width: 152 }} />
+                    <img src={Play} style={{ width: 152 }} alt="Download HopAut App on Google Play Store"/>
                   </div>
                 </div>
                 <div style={{ position: "relative", marginTop: 60 }}>
@@ -45,7 +45,7 @@ function Landing() {
               </div>
               <div className="col-md-4 phone">
                 <div>
-                  <img src={Phone} />
+                  <img src={Phone} alt="HopAut the best Neighborhood and Local Events Finder App" />
                 </div>
               </div>
             </div>
@@ -64,15 +64,15 @@ function Landing() {
                   <p>{t("landing.build")}</p>
                   <h3>{t("landing.community")}</h3>{" "}
                 </div>
-                <img src={Hero} style={{ width: "87%" }} />
+                <img src={Hero} style={{ width: "87%" }} alt="HopAut the best local community app" />
               </div>
             </div>
             <div className="row">
               <div className="download-now">
-                <h1>{t("landing.wait")}</h1>
+                <h2>{t("landing.wait")}</h2>
                 <div className="download-now-buttons">
                   <div className="apple">
-                    <img src={Apple} style={{ width: 122, marginTop: 1 }} />
+                    <img src={Apple} style={{ width: 122, marginTop: 1 }} alt="Download HopAut App on Apple Store" />
                   </div>
                   <div
                     className="google"
@@ -84,7 +84,7 @@ function Landing() {
                     }
                     style={{ cursor: "pointer" }}
                   >
-                    <img src={Play} style={{ width: 152 }} />
+                    <img src={Play} style={{ width: 152 }} alt="Download HopAut App on Google Play Store" />
                   </div>
                 </div>
               </div>
