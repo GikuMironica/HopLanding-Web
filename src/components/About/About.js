@@ -11,13 +11,13 @@ function About() {
     <div className="container about-page">
       <div className="row">
         <div className="our-mission">
-          <h1>{t("us.mission")}</h1>
+          <h2>{t("us.mission")}</h2>
           <div className="row">
             <div className="col-md-6 my-5">
               <p>{t("us.paragraph1")}</p>
             </div>
             <div className="col-md-4">
-              <img src={Img4} style={{ width: 500 }} />
+              <img src={Img4} style={{ width: 500 }} alt="App to discover people nearby or Make friends in Local Area" />
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ function About() {
       <div className="our-mission-2">
         <div className="row d-flex">
           <div className="col-md-5 order-sm-1">
-            <img src={Img3} style={{ width: 400 }} />
+            <img src={Img3} style={{ width: 400 }} alt="Local Events or Party Finder App" />
           </div>
           <div className="col-md-6 my-5 order-sm-2" style={{ marginLeft: 40 }}>
             <p>{t("us.paragraph2")}</p>
@@ -86,14 +86,14 @@ function About() {
       </div>
       <div className="row">
         <div className="download-now">
-          <h1>{t("us.waiting")}</h1>
+          <h2>{t("us.waiting")}</h2>
           <div className="download-now-buttons">
             <div className="apple">
-              <img src={Apple} style={{ width: 122, marginTop: 1 }} />
+              <img src={Apple} style={{ width: 122, marginTop: 1 }} alt="Download HopAut App for IOS" />
             </div>
             <div className="google">
               <img
-                src={Play}
+                src={Play} alt="HopAut the best Neighborhood and Local Events Finder App" 
                 style={{ width: 152, cursor: "pointer" }}
                 onClick={() =>
                   window.open(
