@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="docs/images/landing-hero.png" alt="Hopaut landing page: Find what's happening around you" width="860">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hopaut Landing Page
 
-## Available Scripts
+**Hop out of your house!** Hopaut is a geosocial networking app for discovering, creating and joining events around you, from street parties and club nights to car meets, bike rides and sports events, all on one map.
 
-In the project directory, you can run:
+This repository contains the **Hopaut website**: the landing page, the company and team pages, the legal pages and the account pages that go with the mobile app.
 
-### `npm start`
+## What is Hopaut?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Meeting new people and finding something to do is harder than it should be, especially for international students, tourists and anyone new in town. Existing platforms tend to be built around tickets or closed groups, and their events are rarely shown on a map.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Hopaut takes a different approach:
 
-### `npm test`
+- **Find events nearby.** The app uses your location to show what is happening around you. Browse the map, pick what you are in the mood for, and join with one tap.
+- **Host your own.** Throwing a party, a meetup or a sports event? Post it in a couple of minutes and let others find it.
+- **For businesses too.** Bars, clubs and event organizers can promote their events to the people nearby.
+- **Niche, not generic.** Hopaut focuses on social and party events instead of trying to cover everything.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+<table>
+  <tr>
+    <td align="center"><img src="docs/images/app-map-nearby-events.jpg" alt="Map with nearby events" width="200"></td>
+    <td align="center"><img src="docs/images/app-map-search.jpg" alt="Map view with an event preview card" width="200"></td>
+    <td align="center"><img src="docs/images/app-event-holi-festival.jpg" alt="Event details: Holi Festival" width="200"></td>
+    <td align="center"><img src="docs/images/app-event-car-meet.jpg" alt="Event details: Car meet" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Events around you on the map</sub></td>
+    <td align="center"><sub>Preview cards while you browse</sub></td>
+    <td align="center"><sub>Event details and host</sub></td>
+    <td align="center"><sub>Date, time and description</sub></td>
+  </tr>
+</table>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What is in this repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Landing page** that presents the app and links to its Google Play listing
+- **About us** and **Team** pages
+- **Register and login** screens, plus the landing pages for **e-mail confirmation** and **password reset**
+- **Legal pages:** privacy policy, terms of service (GDPR) and imprint
+- **English and German** versions of the site
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The backend API that the account pages talk to is not part of this repository.
 
-### `npm run eject`
+## Tech stack
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [React](https://reactjs.org/) 17, bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+- [React Router](https://v5.reactrouter.com/) for navigation
+- [i18next](https://www.i18next.com/) / react-i18next for the English and German translations
+- [Bootstrap](https://getbootstrap.com/) 4, [styled-components](https://styled-components.com/) and [react-slick](https://react-slick.neostack.com/) for the UI
+- [axios](https://axios-http.com/) for API calls and [react-markdown](https://github.com/remarkjs/react-markdown) to render the legal texts
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You need [Node.js](https://nodejs.org/) and npm.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+npm start        # development server at http://localhost:3000
+```
 
-## Learn More
+Other scripts:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm test         # run the tests in watch mode
+npm run build    # production build in the build/ folder
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Links
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website: [hopaut.com](https://hopaut.com/)
+- Android app: [Hopaut on Google Play](https://play.google.com/store/apps/details?id=com.hopaut.hopaut)
+- LinkedIn: [Hopaut UG](https://www.linkedin.com/company/hopaut-ug/)
